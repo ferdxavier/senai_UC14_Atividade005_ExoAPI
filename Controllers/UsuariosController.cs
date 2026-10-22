@@ -128,7 +128,7 @@ namespace Exo.WebApi.Controllers
             }
         }
 
-        public List<string> isValido(Usuario usuario)
+        private List<string> isValido(Usuario usuario)
         {
             List<string> minhaLista = new List<string>();
 
